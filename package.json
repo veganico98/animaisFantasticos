@@ -1,0 +1,26 @@
+{
+  "name": "animaisfetch",
+  "version": "1.0.0",
+  "description": "animais fantastico utilizando ja assincrono com fetch, versionamento e controle de padões com ESLint",
+  "main": "index.js",
+  "scripts": {
+    "buildProd": "webpack --mode production",
+    "buildDev": "webpack --mode development --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-transform-runtime": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "babel-loader": "^10.1.1",
+    "eslint": "^10.9.1",
+    "globals": "^17.11.0",
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.29.7"
+  }
+}
