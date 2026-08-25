@@ -1,7 +1,7 @@
 {
-  "name": "animaisfetch",
+  "name": "animais-fantasticos",
   "version": "1.0.0",
-  "description": "animais fantastico utilizando ja assincrono com fetch, versionamento e controle de padões com ESLint",
+  "description": "animais fantasticos",
   "main": "index.js",
   "scripts": {
     "buildProd": "webpack --mode production",
