@@ -13,15 +13,6 @@ export default class TabNav {
     this.tabContent[index].classList.add(this.activeClass, direcao);
   }
 
-  // if (this.tabMenu.length && this.tabContent.length) {
-  //   this.tabContent[0].classList.add(this.activeClass);
-  //   this.tabMenu.forEach((itemMenu, index) => {
-  //     itemMenu.addEventListener('click', () => {
-  //       this.activeTab(index);
-  //     });
-  //   });
-  // }
-
   addTabNavEvent(){
     this.tabMenu.forEach((itemMenu, index) => {
       itemMenu.addEventListener('click', () => this.activeTab(index));
