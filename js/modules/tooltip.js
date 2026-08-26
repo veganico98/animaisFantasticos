@@ -48,7 +48,5 @@ export default class Tooltip {
       this.addTooltipsEvent();
     };
     return this;
-  }
-
-  
+  }  
 }
